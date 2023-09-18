@@ -8,3 +8,9 @@ run;
 data test;
 	set sashelp.class;
 run;
+
+
+data test2;
+	set test;
+ 	y = height;
+run;
